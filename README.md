@@ -19,13 +19,19 @@ If you dont see any errors, youre good to go!
 
 ### Set up the Minecraft Servers home
 Give Termux access to your filesystem if you havent already. This is for convenience. Run:
+
 `termux-setup-storage`
+
 And press allow on the pop-up.
 
 Its recommended to create a folder to store your files. For easy file access in the future, please create the folder in the android users home directory.
-`cd ~/storage/shared  `
-`mkdir termux-mc-server  `
-`cd termux-mc-server  `
+
+`cd ~/storage/shared`
+
+`mkdir termux-mc-server`
+
+`cd termux-mc-server`
+
 Once you are inside the newly created directory, we can proceed.
 
 ### Downloading the Minecraft Server
