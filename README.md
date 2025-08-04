@@ -85,6 +85,6 @@ Running the initialize command for the first time will generate the appropriate 
 
 If you need to change other settings, edit the server.properties file, but if not, run the start command again to make your server spin up for real.
 
-`java -Xmx1024 -Xms1024 -jar server.jar nogui`
+`java -Xmx1024M -Xms1024M -jar server.jar nogui`
 
 Once it starts, you will be able to connect using the private IP address of the servers host device. If you dont know it, you can check using `ifconfig` under the wlan secton if you are using wifi. An example would be `192.168.1.14`. What you do next is up to you. Enjoy!
