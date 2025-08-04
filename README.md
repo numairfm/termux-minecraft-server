@@ -75,7 +75,7 @@ Great! This parts done!
 ### Running the Minecraft Server
 Initialize the server by running this command:
 
-`java -Xmx1024 -Xms1024 -jar server.jar nogui`
+`java -Xmx1024M -Xms1024M -jar server.jar nogui`
 
 -Xmx and -Xms specify the max/smallest RAM allocations. -jar specifies the server jar to use (this allows you to also run other types of servers like a fabric or paper server).
 
